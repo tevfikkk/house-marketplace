@@ -8,6 +8,7 @@ const Navbar: FC = () => {
   const navigate = useNavigate() // used in list items onClick, it basicly navigates you to pages
   const location = useLocation()
 
+  // makes icon and text bold
   const pathMatchRoute = (route: string) =>
     route === location.pathname ? true : false
 
